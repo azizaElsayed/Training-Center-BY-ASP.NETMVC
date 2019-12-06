@@ -1,0 +1,275 @@
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\ApplicationInsights.config
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\csc.exe
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\vbc.exe
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\VBCSCompiler.exe
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\TrainingCenterMVC.dll.config
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\TrainingCenterMVC.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\TrainingCenterMVC.pdb
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Antlr3.Runtime.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\EntityFramework.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\EntityFramework.SqlServer.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.DependencyCollector.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.Web.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.WindowsServer.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.ApplicationInsights.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Google.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Newtonsoft.Json.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Owin.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Helpers.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Mvc.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Optimization.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Razor.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.Deployment.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.Razor.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\WebGrease.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.DependencyCollector.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.Web.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.WindowsServer.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.ApplicationInsights.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Helpers.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Mvc.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Optimization.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Razor.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.Deployment.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.Razor.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Antlr3.Runtime.pdb
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Newtonsoft.Json.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\EntityFramework.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\EntityFramework.SqlServer.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Google.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.dll
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.pdb
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.csprojResolveAssemblyReference.cache
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.addcategorymodel.resources
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.csproj.GenerateResource.Cache
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.addcoursemodel.resources
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.usercoursetbl.resources
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.addusertype.resources
+D:\E_Marketing\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.contactTbl.resources
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\ApplicationInsights.config
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\csc.exe
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\vbc.exe
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\TrainingCenterMVC.dll.config
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\TrainingCenterMVC.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\TrainingCenterMVC.pdb
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Antlr3.Runtime.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\EntityFramework.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.Web.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Newtonsoft.Json.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Owin.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Helpers.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Mvc.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Optimization.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Razor.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\WebGrease.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.Web.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Helpers.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Mvc.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Optimization.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Razor.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Antlr3.Runtime.pdb
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Newtonsoft.Json.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\EntityFramework.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.csprojResolveAssemblyReference.cache
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.addcategorymodel.resources
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.addcoursemodel.resources
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.usercoursetbl.resources
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.addusertype.resources
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.contactTbl.resources
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.csproj.GenerateResource.Cache
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.dll
+C:\Users\nourin net\Desktop\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.pdb
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\ApplicationInsights.config
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\csc.exe
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\vbc.exe
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\VBCSCompiler.exe
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\TrainingCenterMVC.dll.config
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\TrainingCenterMVC.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\TrainingCenterMVC.pdb
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Antlr3.Runtime.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\EntityFramework.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\EntityFramework.SqlServer.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.DependencyCollector.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.Web.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.WindowsServer.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.ApplicationInsights.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Google.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Newtonsoft.Json.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Owin.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Helpers.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Mvc.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Optimization.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Razor.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.Deployment.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.Razor.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\WebGrease.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.DependencyCollector.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.Web.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AI.WindowsServer.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.ApplicationInsights.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Helpers.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Mvc.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Optimization.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.Razor.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.Deployment.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.Web.WebPages.Razor.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Antlr3.Runtime.pdb
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Newtonsoft.Json.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\EntityFramework.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\EntityFramework.SqlServer.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Google.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.addcategorymodel.resources
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.addcoursemodel.resources
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.usercoursetbl.resources
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.addusertype.resources
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.contactTbl.resources
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.csproj.GenerateResource.Cache
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.pdb
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.IdentityModel.Logging.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.IdentityModel.Tokens.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Twilio.AspNet.Common.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Twilio.AspNet.Mvc.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Twilio.dll
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Microsoft.IdentityModel.Tokens.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\bin\Twilio.xml
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.csprojResolveAssemblyReference.cache
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.image.resources
+D:\c#\TrainingCenterMVC\TrainingCenterMVC\obj\Debug\TrainingCenterMVC.Migrations.delete.resources

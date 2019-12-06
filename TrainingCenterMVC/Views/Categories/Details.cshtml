@@ -1,0 +1,62 @@
+﻿@model TrainingCenterMVC.Models.Category
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<style>
+    #Edit{
+
+        font-size:20px;
+    }
+     .details {
+        margin-left: 350px;
+        margin-top: 60px;
+        background-color: #dde;
+        text-align: center;
+        width: 600px;
+        height: 200px;
+    }
+
+    dt {
+        margin-left: 50px;
+    }
+
+    dd {
+        margin-left: 100px;
+        font-size: 20px;
+        color: orangered;
+    }
+
+</style>
+
+<div class="details">
+    <h2 style="text-align:center;background-color:orangered;">Category</h2>
+
+   
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoryDesc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoryDesc)
+        </dd>
+
+    </dl>
+
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-info", @id = "Edit" }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+
+</div>

@@ -1,0 +1,90 @@
+﻿@model TrainingCenterMVC.Models.Courses
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+<style>
+    .delete {
+        margin-left: 350px;
+        margin-top: 60px;
+        background-color: #dde;
+        text-align: center;
+        width: 600px;
+        height: 500px;
+    }
+
+    dt {
+        margin-left: 50px;
+    }
+
+    dd {
+        margin-left: 100px;
+        font-size: 20px;
+        color: orangered;
+    }
+
+    #btndelete{
+        font-size:20px;
+    }
+</style>
+
+<br /><br /><br />
+
+<div class="delete">
+    <h4 style="text-align:center;background-color:orangered;">Courses</h4>
+    <hr />
+
+
+    <dl class="dl-horizontal">
+        
+        <img src="~/Upload/@Model.Image" class="thumbnail" style="border-radius:20px;width:500px;height:250px;;margin-left:50px;" />
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NameCourse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameCourse)
+        </dd>
+
+       
+
+       
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hours)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hours)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" id="btndelete" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

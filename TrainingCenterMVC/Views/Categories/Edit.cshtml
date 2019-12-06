@@ -1,0 +1,192 @@
+﻿@model TrainingCenterMVC.Models.Category
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/Content/Login/images/icons/favicon.ico" />
+    <link href="~/Content/Login/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/Login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" rel="stylesheet" />
+    <link href="~/Content/Login/vendor/animate/animate.css" rel="stylesheet" />
+    <link href="~/Content/Login/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" />
+    <link href="~/Content/Login/vendor/animsition/css/animsition.min.css" rel="stylesheet" />
+
+    <link href="~/Content/Login/vendor/select2/select2.min.css" rel="stylesheet" />
+
+    <link href="~/Content/Login/vendor/daterangepicker/daterangepicker.css" rel="stylesheet" />
+    <link href="~/Content/Login/css/main.css" rel="stylesheet" />
+    <link href="~/Content/Login/css/util.css" rel="stylesheet" />
+
+    <style>
+        #Msg {
+            height: 100px;
+        }
+
+        #back {
+            margin-left: 200px;
+            color: orangered;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="limiter" style="margin-top:0;">
+        <div class="container-login100" style="background-image: url('../../Image/color.jpg');">
+            <div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
+
+
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+                    <span class="login100-form-title p-b-53">
+                        Create New
+                    </span>
+
+
+
+
+                    <div class="p-t-13 p-b-9">
+                        <span class="txt1">
+                            CategoryName
+                        </span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Password is required">
+                        @Html.EditorFor(model => model.CategoryName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.CategoryName, "", new { @class = "text-danger" })
+
+
+                        <span class="focus-input100"></span>
+                    </div>
+
+
+                    <div class="p-t-13 p-b-9">
+                        <span class="txt1">
+                            Description
+                        </span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Password is required">
+                        @Html.EditorFor(model => model.CategoryDesc, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.CategoryDesc, "", new { @class = "text-danger" })
+
+                        <span class="focus-input100"></span>
+                    </div>
+
+
+
+
+                    <br />
+
+
+                    <div>
+
+
+
+                        <div class="container-login100-form-btn m-t-17">
+                            <button type="submit" class="login100-form-btn">
+                                Create New
+                            </button>
+
+
+                        </div>
+                        @Html.ActionLink("Back to List", "Index", "", new { @id = "back" })
+                    </div>
+
+
+                }
+            </div>
+        </div>
+    </div>
+    <br />
+    <div id="dropDownSelect1"></div>
+
+    <!--===============================================================================================-->
+    <script src="~/Content/Login/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="~/Content/Login/vendor/animsition/js/animsition.min.js"></script>
+
+    <script src="~/Content/Login/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Content/Login/vendor/select2/select2.js"></script>
+    <script src="~/Content/Login/vendor/daterangepicker/daterangepicker.js"></script>
+    <script src="~/Content/Login/vendor/daterangepicker/moment.min.js"></script>
+    <script src="~/Content/Login/vendor/countdowntime/countdowntime.js"></script>
+    <script src="~/Content/Login/js/main.js"></script>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Category</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CategoryName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CategoryName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.CategoryName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CategoryDesc, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CategoryDesc, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.CategoryDesc, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

@@ -1,0 +1,85 @@
+﻿@model TrainingCenterMVC.Models.Courses
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<style>
+    .details {
+        margin-left: 350px;
+        margin-top: 60px;
+        background-color: #dde;
+        text-align: center;
+        width: 600px;
+        height: 500px;
+    }
+
+    dt {
+        margin-left: 50px;
+    }
+
+    dd {
+        margin-left: 100px;
+        font-size: 20px;
+        color: orangered;
+    }
+
+    #btndetail{
+        font-size:20px;
+    }
+</style>
+
+<br /><br /><br />
+
+
+<div class="details">
+    <h2 style="text-align:center;background-color:orangered;">Courses</h2>
+  
+    <dl class="dl-horizontal">
+        
+            <img src="~/Upload/@Model.Image" class="thumbnail" style="border-radius:20px;width:500px;height:250px;;margin-left:50px;" />
+      
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NameCourse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameCourse)
+        </dd>
+
+       
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hours)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hours)
+        </dd>
+
+    </dl>
+
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id },new {@class="btn btn-info",@id= "btndetail" }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+
+</div>

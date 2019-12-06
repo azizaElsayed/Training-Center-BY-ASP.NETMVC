@@ -1,0 +1,231 @@
+﻿@model IEnumerable<TrainingCenterMVC.Models.UserCourses>
+
+@{
+    ViewBag.Title = "GetAllCourses";
+}
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Course Detail</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Fonts-->
+    <link href="~/Content/Details/assets/fonts/fontawesome/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/Details/assets/fonts/themify-icons/themify-icons.css" rel="stylesheet" />
+    <link href="~/Content/Details/assets/vendors/bootstrap4/bootstrap.css" rel="stylesheet" />
+
+    <link href="~/Content/Details/assets/vendors/bootstrap4/bootstrap-grid.css" rel="stylesheet" />
+    <link href="~/Content/Details/assets/vendors/magnific-popup/magnific-popup.min.css" rel="stylesheet" />
+    <link href="~/Content/Details/assets/vendors/owl.carousel/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/Content/Details/assets/css/main.css" rel="stylesheet" />
+
+</head>
+
+<body>
+   
+           <div class="consult-projectDetail" style="margin-left:100px;margin-right:100px">
+              
+                <!-- carousel__element owl-carousel -->
+                <div class="carousel__element owl-carousel consult-projectDetail__slider" data-options='{"items":1,"loop":true,"dots":false,"nav":false,"autoplay":true,"animateOut":"fadeOut","margin":0}'>
+                    <div><img src="~/Content/Details/assets/img/projects/detail-1.jpg" alt=""></div>
+
+                    <div><img src="~/Content/Details/assets/img/projects/detail-2.jpg" alt=""></div>
+                    <div><img src="~/Content/Details/assets/img/projects/detail-3.jpg" alt=""></div>
+                </div>
+                <!-- End / carousel__element owl-carousel -->
+
+                <div class="container">
+                    <div class="consult-projectDetail__main">
+
+                        <!-- social-01 -->
+                        <div class="social-01 social-01__style-02">
+                            <nav class="social-01__navSocial">
+                                <a class="social-01__item" href="#"><i class="fa fa-facebook"></i></a><a class="social-01__item" href="#"><i class="fa fa-skype"></i></a><a class="social-01__item" href="#"><i class="fa fa-twitter"></i></a><a class="social-01__item" href="#"><i class="fa fa-instagram"></i></a>
+                            </nav>
+                        </div>
+                        <!-- End / social-01 -->
+
+                        <div class="row">
+                            <h1 style="color:orangered;font-size:30px;text-align:center;margin-left:300px; font-weight:bolder ">
+
+                                COURSES  JOINED BY ME
+                             
+                            </h1>
+                           
+
+                            <div class="col-lg-10 col-xl-8 offset-0 offset-sm-0 offset-md-0 offset-lg-1 offset-xl-2 ">
+                                <div class="consult-projectDetail__content" style="text-align:center;">
+                                    <div class="row">
+                                      
+
+                                        @foreach (var item in Model)
+                                        {
+
+
+
+                                        <div class="col-xl-11 offset-0 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-1 ">
+
+
+                                            <img src="~/Upload/@Html.DisplayFor(modelItem => item.course.Image)" />
+
+
+                                            <h1>
+                                                @Html.DisplayFor(modelItem => item.course.NameCourse)
+
+                                            </h1>
+                                            <p class="text">
+
+                                            </p>
+                                            <div class="row row-eq-height" style="margin-bottom:30px;">
+                                                <div class="col-lg-6 ">
+
+
+                                                    <div class="infobox">
+                                                        <h2 class="infobox__title"><a href="#">Email</a></h2>
+                                                        <div class="infobox__description">
+
+                                                            @Html.DisplayFor(modelItem => item.User.Email)
+
+
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="infobox">
+                                                        <h2 class="infobox__title"><a href="#">Message</a></h2>
+                                                        <div class="infobox__description">
+                                                            @Html.DisplayFor(modelItem => item.Message)
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- End / infobox -->
+
+                                                </div>
+                                                <div class="col-md-6 ">
+
+                                                    <!-- infobox -->
+                                                    <div class="infobox">
+                                                        <h2 class="infobox__title"><a href="#">Date</a></h2>
+                                                        <div class="infobox__description">
+                                                            @Html.DisplayFor(modelItem => item.JoinData)
+                                                        </div>
+                                                    </div>
+                                                    <!-- End / infobox -->
+
+                                                </div>
+
+
+                                                <!-- infobox -->
+
+                                            </div>
+
+
+
+                                            @Html.ActionLink("Edit", "EditCourseapplied", new { id = item.Id }, new { @class = "btn btn-info" }) |
+                                            @Html.ActionLink("Delete", "DeleteCourseapplied", new { id = item.Id }, new { @class = "btn btn-danager" })
+                                            <hr style="color:orangered;background-color:orangered" />
+
+
+
+
+
+                                        </div>
+                                        }
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End / Content-->
+
+            </div>
+        </div>
+        </div>
+
+        <script src="~/Content/Details/assets/vendors/jquery/jquery.min.js"></script>
+        <script src="~/Content/Details/assets/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+        <script src="~/Content/Details/assets/vendors/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="~/Content/Details/assets/vendors/jquery.countdown/jquery.countdown.min.js"></script>
+        <script src="~/Content/Details/assets/vendors/jquery.countTo/jquery.countTo.min.js"></script>
+        <script src="~/Content/Details/assets/vendors/bootstrap4/bootstrap.min.js"></script>
+        <script src="~/Content/Details/assets/vendors/jquery.matchHeight/jquery.matchHeight.min.js"></script>
+        <script src="~/Content/Details/assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="~/Content/Details/assets/vendors/bootstrap4/popper.js"></script>
+        <script src="~/Content/Details/assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.course.NameCourse)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Message)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.JoinData)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.course.NameCourse)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.User.Email)
+            @Html.DisplayFor(modelItem => item)
+
+
+
+
+        </td>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.Message)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.JoinData)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditCourseapplied", new { id=item.Id }) |
+            @Html.ActionLink("Details", "DetailCourseapplied", new {id = item.Id }) |
+            @Html.ActionLink("Delete", "DeleteCourseapplied", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>*@

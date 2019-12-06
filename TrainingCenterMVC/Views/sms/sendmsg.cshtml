@@ -1,0 +1,64 @@
+﻿@model TrainingCenterMVC.Models.Message
+
+@{
+    ViewBag.Title = "sendmsg";
+}
+<style>
+    #msg{
+        margin-left:100px;
+        background-color:#ddd;
+        font-size:25px;
+        padding:20px;
+        width:600px;
+        height:300px;
+        margin-top:50px;
+
+
+
+    }
+</style>
+
+<div id="msg">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4 style="color:orangered;text-align:center;">Send Message</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.MSG, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.MSG, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.MSG, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div>
+                @ViewBag.result
+            </div>
+            <br />
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-info" style="font-size:20px;" />
+                    @Html.ActionLink("Back to List", "MainIndex","Categories")
+
+
+                </div>
+            </div>
+
+           
+        </div>
+    }
+
+
+</div>

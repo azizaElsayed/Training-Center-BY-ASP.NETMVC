@@ -1,0 +1,91 @@
+﻿@model TrainingCenterMVC.Models.UserCourses
+
+@{
+    ViewBag.Title = "DeleteUserCRS";
+}
+
+
+<style>
+    .delete {
+        margin-left: 350px;
+        margin-top: 60px;
+        background-color: #dde;
+        text-align: center;
+        width: 600px;
+        height: 300px;
+    }
+
+    dt {
+        margin-left: 50px;
+    }
+
+    dd {
+        margin-left: 100px;
+        font-size: 20px;
+        color: orangered;
+    }
+
+    #btndelete {
+        font-size: 20px;
+    }
+</style>
+
+<br /><br /><br />
+
+<div class="delete">
+    <h4 style="text-align:center;background-color:orangered;">User Courses</h4>
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.User.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.UserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.course.NameCourse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.course.NameCourse)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.Email)
+        </dd>
+
+        
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Message)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Message)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JoinData)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JoinData)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm(FormMethod.Post)) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger"  style="font-size:30px;"/> |
+            @Html.ActionLink("Back to List", "retriveallCRS")
+        </div>
+    }
+</div>

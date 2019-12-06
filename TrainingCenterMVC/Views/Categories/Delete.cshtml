@@ -1,0 +1,64 @@
+﻿@model TrainingCenterMVC.Models.Category
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<style>
+    .delete {
+        margin-left: 350px;
+        margin-top: 60px;
+        background-color: #dde;
+        text-align: center;
+        width: 600px;
+        height: 200px;
+    }
+
+    dt {
+        margin-left: 50px;
+    }
+
+    dd {
+        margin-left: 100px;
+        font-size: 20px;
+        color: orangered;
+    }
+
+    #btndelete {
+        font-size: 20px;
+    }
+</style>
+
+<div class="delete">
+    <h4 style="text-align:center;background-color:orangered;">Category</h4>
+
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoryDesc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoryDesc)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger"  id="btndelete"/> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

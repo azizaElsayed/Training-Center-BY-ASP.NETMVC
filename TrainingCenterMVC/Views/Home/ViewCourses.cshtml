@@ -1,0 +1,172 @@
+﻿@model IEnumerable<TrainingCenterMVC.Models.Category>
+
+@{
+    ViewBag.Title = "ViewCourses";
+    // Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Courses</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   
+
+    <link href="~/Content/viewcourses/animate.css" rel="stylesheet" />
+    <link href="~/Content/viewcourses/style.css" rel="stylesheet" />
+    <link href="~/Content/viewcourses/viewcrs.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/search.css" rel="stylesheet" />
+    <link href="~/Content/Login/css/main.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+          <h1 class="mb-4" style="display:inline;color:orangered">
+                Popular Courses
+                Available  Now
+            </h1>
+
+
+            <div class="col-md-7 heading-section text-center">
+           
+
+                <div class="container h-100" style="margin-left:300px;">
+                    <div class="d-flex justify-content-center h-100">
+                        @using (Html.BeginForm("Search", "Home", FormMethod.Post))
+                        {
+
+                            <div class="searchbar">
+
+                                <input class="search_input" type="text" name="searchName" placeholder="Search...">
+                                <a href="#" class="search_icon"><i class="fa fa-search"></i></a>
+
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+          
+
+
+            <div class="container"  id="main"  data-rel="content1">
+                @foreach (var item in Model)
+
+
+                {
+
+                    <ul class="category" style="margin-left:50px;">
+                        <li style="display:inline ;margin-left:50px;">
+                            <a href="#">
+                                @Html.DisplayFor(model => item.CategoryName)<br />@Html.DisplayFor(model => item.CategoryDesc)
+                                <br><span class="number">354</span> <span>Open position</span><i class="ion-ios-arrow-forward"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+
+
+
+
+
+
+
+
+                    <div class="row" style="margin-bottom:130px;" id="submain">
+
+
+
+                        @foreach (var subitem in item.courses)
+                        {
+                                <div class="col-lg-4 col-md-6">
+
+                                    <div class="box text-center">
+
+                                        <div class="img">
+
+                                            <img src="~/Upload/@subitem.Image" width="200" height="130">
+
+                                        </div>
+
+                                        <h3>@subitem.NameCourse</h3>
+
+                                        @Html.ActionLink("Details", "Details", new { CourseId = subitem.Id }, new { @class = "btn btn-default" }) |
+
+                                        <ul class="details list-unstyled">
+                                            <li>No OF Hours &nbsp;&nbsp;&nbsp; @subitem.Hours &nbsp;H  <span><i class="fa  fa-hourglass-1" style="color:orangered"></i></span></li>
+                                            <hr style="color:black;opacity:.7;" />
+                                            <li>Price &nbsp;&nbsp;&nbsp;@subitem.Price &nbsp;EL <span><i class="fa fa-check" style="color:orangered"></i></span></li>
+                                            <hr />
+                                        </ul>
+
+                                        <div class="btn btn-info">
+                                            <a href="~/Home/Apply" style="color:#fff;text-align:center">Join Course</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                  
+
+
+                           
+
+                        }
+
+
+                    </div>
+
+
+                }
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Vendors-->
+           
+
+            <script src="~/Content/viewcourses/vendors/jquery/jquery.min.js"></script>
+
+            <script src="~/Content/viewcourses/vendors/bootstrap4/bootstrap.min.js"></script>
+            <script src="~/Content/viewcourses/vendors/canvas/canvasjs.min.js"></script>
+            <script src="~/Content/viewcourses/vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+            <script src="~/Content/viewcourses/vendors/jquery.countdown/jquery.countdown.min.js"></script>
+            <script src="~/Content/viewcourses/vendors/isotope-layout/isotope.pkgd.min.js"></script>
+            <script src="~/Content/viewcourses/vendors/jquery.countTo/jquery.countTo.min.js"></script>
+            <script src="~/Content/viewcourses/vendors/jquery.countUp/jquery.countup.min.js"></script>
+            <script src="~/Content/viewcourses/vendors/jquery.matchHeight/jquery.matchHeight.min.js"></script>
+            <script src="~/Content/viewcourses/vendors/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.js"></script>
+            <script src="~/Content/viewcourses/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+            <script src="~/Content/viewcourses/vendors/menu/menu.min.js"></script>
+            <script src="~/Content/viewcourses/vendors/owl.carousel/owl.carousel.min.js"></script>
+            <script src="~/Content/viewcourses/vendors/smoothscroll/SmoothScroll.min.js"></script>
+            <script src="~/Content/viewcourses/js/main.js"></script>
+
+</body>
+
+
+</html>
+
+<script>
+
+    //$("#main").click(function (e) {
+    //    e.preventDefault();
+    //    $('#submain').fadeToggle('slow');
+    //    $('#' + $(this).data('rel')).fadeToggle('slow');
+        
+    //});
+
+</script>

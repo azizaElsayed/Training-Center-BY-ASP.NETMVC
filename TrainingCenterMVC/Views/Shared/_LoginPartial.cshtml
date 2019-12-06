@@ -1,0 +1,64 @@
+﻿
+
+<style>
+
+
+    #registerLink{
+        color:black;
+    }
+</style>
+
+@using Microsoft.AspNet.Identity
+@using TrainingCenterMVC.Models
+
+
+
+
+@if(Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+    @Html.AntiForgeryToken()
+
+        var db = new ApplicationDbContext();
+        var UserId = User.Identity.GetUserId();
+        var CurrentUser = db.Users.Where(a => a.Id == UserId).SingleOrDefault();
+
+
+    <ul class="nav navbar-nav navbar-right">
+      
+          @if (CurrentUser.UserName == "aziza95@gmail.com")
+          {
+            <li>
+                <a href="~/Categories/MainIndex">Admin</a>
+            </li>
+            <li>
+                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "GetAllCourses", "Home", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+
+
+
+          }
+
+          else
+          {
+            <li>
+                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "GetAllCourses", "Home", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+
+
+          }
+
+    </ul>
+
+                }
+            }
+            else
+            {
+    <ul class="nav navbar-nav navbar-right" style="color:black;">
+        <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

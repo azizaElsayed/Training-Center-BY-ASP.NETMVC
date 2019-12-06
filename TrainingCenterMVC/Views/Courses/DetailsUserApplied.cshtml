@@ -1,0 +1,97 @@
+﻿@model TrainingCenterMVC.Models.UserCourses
+
+@{
+    ViewBag.Title = "DetailsUserApplied";
+}
+
+
+<style>
+    .details {
+        margin-left: 350px;
+        margin-top: 60px;
+        background-color: #dde;
+        text-align: center;
+        width: 600px;
+        height: 300px;
+    }
+
+    dt {
+
+        margin-left: 50px;
+    }
+
+    dd {
+        
+        margin-left: 100px;
+        font-size: 20px;
+        color: black;
+    }
+
+
+    #btnInfo{
+
+        font-size:30px;
+    }
+</style>
+
+<br /><br /><br />
+
+
+
+<div class="details">
+    <h2 style="text-align:center;background-color:orangered;">User Courses</h2>
+
+
+   
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User.UserName)
+        </dt>
+       
+        <dd>
+            @Html.DisplayFor(model => model.User.UserName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.course.NameCourse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.course.NameCourse)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.Email)
+        </dd>
+
+       
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Message)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Message)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JoinData)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JoinData)
+        </dd>
+
+    </dl>
+    <p>
+        @*@Html.ActionLink("Edit", "Edit", new { id = Model.Id },new { @class="btn btn-info",@id="btnInfo"}) |*@
+        <br /><br />
+
+        @Html.ActionLink("Back to List", "retriveallCRS", "",new { @class = "btn btn-desault", @id = "btnInfo" })
+    </p>
+</div>
+

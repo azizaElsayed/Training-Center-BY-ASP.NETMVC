@@ -1,0 +1,227 @@
+﻿
+@{
+    ViewBag.Title = "MainIndex";
+    Layout = null;
+}
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>StartUI - Premium Bootstrap 4 Admin Dashboard Template</title>
+
+    <link href="~/Content/lobipanel.min.css" rel="stylesheet" />
+    <link href="~/Content/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/assets/main.css" rel="stylesheet" />
+
+
+
+</head>
+
+<body class="with-side-menu control-panel control-panel-compact">
+
+    <!--.site-header-->
+    <!-- header-->
+    <br /><br />
+  
+
+
+
+
+   
+
+
+    <div class="mobile-menu-left-overlay"></div>
+    <nav class="side-menu">
+        <ul class="side-menu-list">
+            <li class="grey with-sub">
+                
+
+        </ul>
+
+        <section>
+            <ul class="side-menu-list">
+
+                <li>
+                    <a href="#">
+
+                        <i class="tag-color fa-black-tie"></i>
+                        <span class="lbl"> Admin </span>
+                    </a>
+                </li>
+                <br /><br />
+                <li>
+                    <a href="/Categories/Index">
+
+                        <i class="tag-color green"></i>
+                        <span class="lbl">  View All Categories</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Courses/Index">
+                        <i class="tag-color grey-blue"></i>
+                        <span class="lbl">View All Courses</span>
+                    </a>
+                </li>
+
+                <li>
+                   <a href="/Courses/retriveallCRS">
+                        <i class="tag-color red"></i>
+                        <span class="lbl">
+                            View Users Applied
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="~/sms/sendmsg">
+                        <i class="tag-color orange"></i>
+                        <span class="lbl">Send Message </span>
+                    </a>
+                </li>
+
+                
+                @*<li>
+                    <a href="#">
+                        <i class="tag-color pink"></i>
+                        <span class="lbl"></span>
+                    </a>
+                </li>*@
+               
+            </ul>
+        </section>
+    </nav><!--.side-menu-->
+
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="chart-statistic-box">
+                        <div class="chart-txt">
+                            <div class="chart-txt-top">
+                                <p><span class="unit">$</span><span class="number">1540</span></p>
+                                <p class="caption">Week income</p>
+                            </div>
+                            <table class="tbl-data">
+                                <tr>
+                                    <td class="price color-purple">120$</td>
+                                    <td>Orders</td>
+                                </tr>
+                                <tr>
+                                    <td class="price color-yellow">15$</td>
+                                    <td>Investments</td>
+                                </tr>
+                                <tr>
+                                    <td class="price color-lime">55$</td>
+                                    <td>Others</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="chart-container">
+                            <div class="chart-container-in">
+                                <div id="chart_div"></div>
+                                <header class="chart-container-title">Income</header>
+                                <div class="chart-container-x">
+                                    <div class="item"></div>
+                                    <div class="item">tue</div>
+                                    <div class="item">wed</div>
+                                    <div class="item">thu</div>
+                                    <div class="item">fri</div>
+                                    <div class="item">sat</div>
+                                    <div class="item">sun</div>
+                                    <div class="item">mon</div>
+                                    <div class="item"></div>
+                                </div>
+                                <div class="chart-container-y">
+                                    <div class="item">300</div>
+                                    <div class="item"></div>
+                                    <div class="item">250</div>
+                                    <div class="item"></div>
+                                    <div class="item">200</div>
+                                    <div class="item"></div>
+                                    <div class="item">150</div>
+                                    <div class="item"></div>
+                                    <div class="item">100</div>
+                                    <div class="item"></div>
+                                    <div class="item">50</div>
+                                    <div class="item"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--.chart-statistic-box-->
+                </div><!--.col-->
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <article class="statistic-box red">
+                                <div>
+                                    <div class="number">26</div>
+                                    <div class="caption"><div>View Courses</div></div>
+                                    <div class="percent">
+                                        <div class="arrow up"></div>
+                                     
+                                    </div>
+                                </div>
+                            </article>
+                        </div><!--.col-->
+                        <div class="col-sm-6">
+                            <article class="statistic-box purple">
+                                <div>
+                                    <div class="number">12</div>
+                                    <div class="caption"><div>Message</div></div>
+                                    <div class="percent">
+                                        <div class="arrow down"></div>
+                                        
+                                    </div>
+                                </div>
+                            </article>
+                        </div><!--.col-->
+                        <div class="col-sm-6">
+                            <article class="statistic-box yellow">
+                                <div>
+                                    <div class="number">104</div>
+                                    <div class="caption"><div>Users</div></div>
+                                    <div class="percent">
+                                        <div class="arrow down"></div>
+                                       
+                                    </div>
+                                </div>
+                            </article>
+                        </div><!--.col-->
+                        <div class="col-sm-6">
+                            <article class="statistic-box green">
+                                <div>
+                                    <div class="number"></div>
+                                    <div class="caption"><div>Here is The best course </div></div>
+                                    <div class="percent">
+                                        <div class="arrow up"></div>
+                                        @*<p>84%</p>*@
+                                    </div>
+                                </div>
+                            </article>
+                        </div><!--.col-->
+                    </div><!--.row-->
+                </div><!--.col-->
+            </div><!--.row-->
+
+
+        </div><!--.container-fluid-->
+    </div><!--.page-content-->
+
+  <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+
+</body>
+
+</html>
+
